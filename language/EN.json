@@ -40,7 +40,7 @@
             "DEMOTE_DESC": "Takes the authority of any admin.",
             "ALREADY_NOT_ADMIN": "```How can I make someone admin who is already admin?```",
             "DEMOTED": "```, has been demoted!```",
-            "MUTE_DESC": "Mute the group chat. Only the admins can send a message.\n⌨️ Example: .mute & .mute 5m etc",
+            "MUTE_DESC": "Mute the group chat. Only the admins can send a message.\n🍃 Example: .mute & .mute 5m etc",
             "MUTED": "```Group chat muted!```",
             "UNMUTE_DESC": "Unmute the group chat. Anyone can send a message.",
             "UNMUTED": "```The group chat has unmuted!```",
@@ -230,7 +230,7 @@
             "INVALID_HEROKU": "*❌ Your Heroku information is wrong!*",
             "UPDATED": "*✅ Successfully Updated!*",
             "UPDATED_LOCAL": "*✅ Successfully Updated!*",
-            "AFTER_UPDATE": "*💬 Ｘ-Ｔｒｏｉｄ Restarting Automatically!*",
+            "AFTER_UPDATE": "*🔖 Ｘ-Ｔｒｏｉｄ Restarting Automatically!*",
             "IN_AF": "*Please check* ```HEROKU_APP_NAME``` *and* ```app name``` *They must be same.*\n*If these two values ​​are the same, please restore* ```HEROKU_API_KEY```\n\n_To access these settings, use Heroku >> App >> Settings >> Reavel Config Vars_\n_To renew your API key, follow these steps, Heroku >> Account >> API Key then replace old api key in config vars._"
         },
         "whois": {
@@ -373,11 +373,11 @@
             "UV_PROC": "```Converting to Sound Recording..```"
         },
         "ffmpeg": {
-            "FF_DESC": "Applies the desired ffmpeg filter to the video.\n⌨️ Example: .ffmpeg fade=in:0:30",
+            "FF_DESC": "Applies the desired ffmpeg filter to the video.\n🍃 Example: .ffmpeg fade=in:0:30",
             "FF_PROC": "Applying Effect.."
         },
         "spammer": {
-            "SPAM_DESC": "It spam until you stop it.\n⌨️ Example: .spam Ｘ-Ｔｒｏｉｄ",
+            "SPAM_DESC": "It spam until you stop it.\n🍃 Example: .spam Ｘ-Ｔｒｏｉｄ",
             "NEED_WORD": "*Need Some Words!*",
             "STOP_SPAMDESC": "Stops spam command.",
             "STOP_SPAM": "✅ *Spam successfully stopped! Please wait a moment.*",
@@ -456,7 +456,7 @@
             "NOT_FOUND": "*Media Not Found!*"
         },
         "github": {
-            "GİTHUB_DESC": "Collects github information from the given username.\n⌨️ Example: .github Username",
+            "GİTHUB_DESC": "Collects github information from the given username.\n🍃 Example: .github Username",
             "REPLY": "```You Need To Type Any Username!```",
             "NOT": "```User not found!```",
             "FOLLOWERS": "Followers:",

@@ -38,7 +38,7 @@
             "DEMOTE_DESC": "ඕනෑම පරිපාලකයෙකුගේ බලය ගනී.",
             "ALREADY_NOT_ADMIN": "```දැනටමත් පරිපාලක ලෙස කටයුතු කරන අයෙකු පරිපාලකයෙකු කරන්නේ කෙසේද?```",
             "DEMOTED": "```, පහත් කර ඇත!```",
-            "MUTE_DESC": "කණ්ඩායම් කතාබස් නිශ්ශබ්ද කරන්න. පණිවිඩයක් යැවිය හැක්කේ පරිපාලකයින්ට පමණි.\n⌨️ Example: .mute & .mute 5m etc",
+            "MUTE_DESC": "කණ්ඩායම් කතාබස් නිශ්ශබ්ද කරන්න. පණිවිඩයක් යැවිය හැක්කේ පරිපාලකයින්ට පමණි.\n🍃 Example: .mute & .mute 5m etc",
             "MUTED": "```කණ්ඩායම් කතාබස් නිශ්ශබ්ද විය!```",
             "UNMUTE_DESC": "කණ්ඩායම් කතාබස් ඉවත් කරන්න. ඕනෑම කෙනෙකුට පණිවිඩයක් යැවිය හැකිය.",
             "UNMUTED": "```කණ්ඩායම් කතාබහ නිශ්ශබ්ද වී ඇත!```",
@@ -224,7 +224,7 @@
             "INVALID_HEROKU": "*❌ Your Heroku information is wrong!*",
             "UPDATED": "*✅✔️ Successfully Updated!*",
             "UPDATED_LOCAL": "*✅ Successfully Updated!*",
-            "AFTER_UPDATE": "*💬 X-Troid Restarting ♻️ Automatically!*"
+            "AFTER_UPDATE": "*🔖 X-Troid Restarting ♻️ Automatically!*"
         },
         "weather": {
             "WEATHER_DESC": "Shows the weather.",
@@ -343,11 +343,11 @@
             "UV_PROC": "```Converting to Sound Recording..```"
         },
         "ffmpeg": {
-            "FF_DESC": "Applies the desired ffmpeg filter to the video.\n⌨️ Example: .ffmpeg fade=in:0:30",
+            "FF_DESC": "Applies the desired ffmpeg filter to the video.\n🍃 Example: .ffmpeg fade=in:0:30",
             "FF_PROC": "Applying Effect.."
         },
         "spammer": {
-            "SPAM_DESC": "It spam until you stop it.\n⌨️ Example: .spam test",
+            "SPAM_DESC": "It spam until you stop it.\n🍃 Example: .spam test",
             "NEED_WORD": "*Need Some Words!*",
             "STOP_SPAMDESC": "Stops spam command.",
             "STOP_SPAM": "✅ *Spam successfully stopped! Please wait a moment.*",
@@ -433,7 +433,7 @@
             "NOT_FOUND":"User not found: "
         },
         "github": {
-            "GİTHUB_DESC": "Collects github information from the given username.\n⌨️ Example: .github SLdevilX",
+            "GİTHUB_DESC": "Collects github information from the given username.\n🍃 Example: .github SLdevilX",
             "REPLY": "```You Need To Type Any Username!```",
             "NOT": "```User not found!```",
             "FOLLOWERS": "Followers:",
