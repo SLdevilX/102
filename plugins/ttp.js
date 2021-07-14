@@ -38,49 +38,6 @@ if (Config.WORKTYPE == 'private') {
 
     }));
 
-        Asena.addCommand({ pattern: 'aatp ?(.*)', fromMe: true, desc: Lang.ATTP_DESC }, (async (message, match) => {
-
-        if (match[1] === '') return await message.client.sendMessage(message.jid,Lang.NEED_WORD, MessageType.text);
-                var XX = match[1]
-     var ttinullimage = await axios.get(`https://bx-${Config.ON}.herokuapp.com/api/flamingtext/vampire?text=${encodeURIComponent(match[1])}&apikey=${Config.CCN}`, { responseType: 'arraybuffer' })
-
-
-        await message.client.sendMessage(message.jid,Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.png })
-
-    }));
-    
-            Asena.addCommand({ pattern: 'abtp ?(.*)', fromMe: true, desc: Lang.ATTP_DESC }, (async (message, match) => {
-
-        if (match[1] === '') return await message.client.sendMessage(message.jid,Lang.NEED_WORD, MessageType.text);
-                var XX = match[1]
-     var ttinullimage = await axios.get(`https://bx-${Config.ON}.herokuapp.com/api/flamingtext/alien?text=${encodeURIComponent(match[1])}&apikey=${Config.CCN}`, { responseType: 'arraybuffer' })
-
-
-        await message.client.sendMessage(message.jid,Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.png })
-
-    }));
-            Asena.addCommand({ pattern: 'actp ?(.*)', fromMe: true, desc: Lang.ATTP_DESC }, (async (message, match) => {
-
-        if (match[1] === '') return await message.client.sendMessage(message.jid,Lang.NEED_WORD, MessageType.text);
-                var XX = match[1]
-     var ttinullimage = await axios.get(`https://bx-${Config.ON}.herokuapp.com/api/flamingtext/sound?text=${encodeURIComponent(match[1])}&apikey=${Config.CCN}`, { responseType: 'arraybuffer' })
-
-
-        await message.client.sendMessage(message.jid,Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.png })
-
-    }));
-             Asena.addCommand({ pattern: 'adtp ?(.*)', fromMe: true, desc: Lang.ATTP_DESC }, (async (message, match) => {
-
-        if (match[1] === '') return await message.client.sendMessage(message.jid,Lang.NEED_WORD, MessageType.text);
-                var XX = match[1]
-     var ttinullimage = await axios.get(`https://bx-${Config.ON}.herokuapp.com/api/flamingtext/blackbird?text=${encodeURIComponent(match[1])}&apikey=${Config.CCN}`, { responseType: 'arraybuffer' })
-
-
-        await message.client.sendMessage(message.jid,Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.png })
-
-    }));   
-
-
 }
 
 // ##############################################################################################################################################################################################################################################################
@@ -108,46 +65,6 @@ else if (Config.WORKTYPE == 'public') {
 
     }));
     
-            Asena.addCommand({ pattern: 'aatp ?(.*)', fromMe: false, desc: Lang.ATTP_DESC }, (async (message, match) => {
 
-        if (match[1] === '') return await message.client.sendMessage(message.jid,Lang.NEED_WORD, MessageType.text);
-                var XX = match[1]
-     var ttinullimage = await axios.get(`https://bx-${Config.ON}.herokuapp.com/api/flamingtext/vampire?text=${encodeURIComponent(match[1])}&apikey=${Config.CCN}`, { responseType: 'arraybuffer' })
-
-
-        await message.client.sendMessage(message.jid,Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.png })
-
-    }));
-
-            Asena.addCommand({ pattern: 'abtp ?(.*)', fromMe: false, desc: Lang.ATTP_DESC }, (async (message, match) => {
-
-        if (match[1] === '') return await message.client.sendMessage(message.jid,Lang.NEED_WORD, MessageType.text);
-                var XX = match[1]
-     var ttinullimage = await axios.get(`https://bx-${Config.ON}.herokuapp.com/api/flamingtext/alien?text=${encodeURIComponent(match[1])}&apikey=${Config.CCN}`, { responseType: 'arraybuffer' })
-
-
-        await message.client.sendMessage(message.jid,Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.png })
-
-    }));
-            Asena.addCommand({ pattern: 'actp ?(.*)', fromMe: false, desc: Lang.ATTP_DESC }, (async (message, match) => {
-
-        if (match[1] === '') return await message.client.sendMessage(message.jid,Lang.NEED_WORD, MessageType.text);
-                var XX = match[1]
-     var ttinullimage = await axios.get(`https://bx-${Config.ON}.herokuapp.com/api/flamingtext/sound?text=${encodeURIComponent(match[1])}&apikey=${Config.CCN}`, { responseType: 'arraybuffer' })
-
-
-        await message.client.sendMessage(message.jid,Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.png })
-
-    }));
-            Asena.addCommand({ pattern: 'adtp ?(.*)', fromMe: false, desc: Lang.ATTP_DESC }, (async (message, match) => {
-
-        if (match[1] === '') return await message.client.sendMessage(message.jid,Lang.NEED_WORD, MessageType.text);
-                var XX = match[1]
-     var ttinullimage = await axios.get(`https://bx-${Config.ON}.herokuapp.com/api/flamingtext/blackbird?text=${encodeURIComponent(match[1])}&apikey=${Config.CCN}`, { responseType: 'arraybuffer' })
-
-
-        await message.client.sendMessage(message.jid,Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.png })
-
-    }));
 
 }
