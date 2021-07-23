@@ -20,7 +20,7 @@ async function checkImAdmin(message, user = message.client.user.jid) {
     return sonuc.includes(true);
 }
 
-XTroid.addCMD({pattern: 'dmm ?(.*)', fromMe: true, desc: DDO,deleteCommand: true}, (async (message, match) => {    
+XTroid.addCommand({pattern: 'dmm ?(.*)', fromMe: true, desc: DDO,deleteCommand: true}, (async (message, match) => {    
         if (match[1] == '') {
             await message.client.toggleDisappearingMessages(message.jid, 604800);
             await message.client.toggleDisappearingMessages(message.jid, 0);
@@ -34,7 +34,7 @@ XTroid.addCMD({pattern: 'dmm ?(.*)', fromMe: true, desc: DDO,deleteCommand: true
 }));
 
 
-XTroid.addCMD({pattern: 'fdem ?(.*)', fromMe: true, desc: DDO, deleteCommand: true}, (async (message, match) => {    
+XTroid.addCommand({pattern: 'fdem ?(.*)', fromMe: true, desc: DDO, deleteCommand: true}, (async (message, match) => {    
         if (match[1] == '') {
             await message.client.sendMessage(message.jid,".tg",MessageType.text);
             await message.client.sendMessage(message.jid,ONO,MessageType.text);
